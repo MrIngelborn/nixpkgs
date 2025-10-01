@@ -104,6 +104,10 @@ in
       [ "services" "xserver" "desktopManager" "gnome" "sessionPath" ]
       [ "services" "desktopManager" "gnome" "sessionPath" ]
     )
+    (lib.mkRenamedOptionModule
+      [ "services" "xserver" "desktopManager" "gnome" "favoriteAppsOverride" ]
+      [ "services" "desktopManager" "gnome" "favoriteAppsOverride" ]
+    )
     # flashback options
     (lib.mkRenamedOptionModule
       [ "services" "xserver" "desktopManager" "gnome" "flashback" "customSessions" ]
